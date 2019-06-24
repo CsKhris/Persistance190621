@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_player">
+        <item>손흥민</item>
+        <item>황의조</item>
+        <item>황희찬</item>
+        <item>이승우</item>
+        <item>조현우</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Message Alert">
+        <SwitchPreference
+            android:key="message"
+            android:title="Message Alert"/>
+        <PreferenceScreen
+            android:key="keyword_screen"
+            android:title="Keyword Alert"
+            android:summary="No Use">
+            <ListPreference
+                android:key="keyword_player_list"
+                android:title="Korean Soccer Player"
+                android:entries="@array/array_player"
+                android:entryValues="@array/array_player"
+                android:summary="Soccer Player"/>
+
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
